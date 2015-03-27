@@ -13,7 +13,8 @@ txt = open(filename)
 print "Here's your file %r:" % filename
 
 # Print contents read() of txt variable
-print txt.read().close()
+print txt.read()
+txt.close()
 
 
 # Accept new input for file_again var
@@ -24,4 +25,5 @@ file_again = raw_input("> ")
 txt_again = open(file_again)
 
 # Print contents read() of txt_again var
-print txt_again.read().close()
+print txt_again.read()
+txt_again.close()
