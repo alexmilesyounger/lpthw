@@ -12,4 +12,4 @@ file_again = raw_input("> ")
 
 txt_again = open(file_again)
 
-print text_again.read()
+print txt_again.read()
