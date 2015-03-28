@@ -10,7 +10,8 @@ def print_all(f):
 
 # Define the rewind function
 def rewind(f):
-	f.seek(0)
+	# seek() moves around the file in bytes
+	f.seek(0)			# seek(0) moves to the 0th byte
 
 # Define the print_a_line function
 def print_a_line(line_count, f):
